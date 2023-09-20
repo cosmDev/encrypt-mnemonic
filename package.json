@@ -1,6 +1,6 @@
 {
   "name": "@cosmdev/encrypt-mnemonic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -11,6 +11,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "Apache-2.0"
+  "author": "atmon3r",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
 }
